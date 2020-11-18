@@ -1,0 +1,83 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: '58_Movement_LODa_r01',
+        },
+      ],
+      path: 'sampledata/skeleton/58_Movement_LODa_r01.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'SkeletonSystem1',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '53_SkeletonSystem_D',
+        },
+        {
+          normalMap: '53_SkeletonSystem_N',
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/skeleton/58_Movement_LODa_r01.fbx',
+    name: '58_Movement_LODa_r01',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/skeleton\\53_SkeletonSystem_D.png',
+      name: '53_SkeletonSystem_D',
+      pipeline_name: 'D:\\VidaSystems\\Google_Expeditions_AR\\8-SkeletalSystem\\58_Movement\\textures\\53_SkeletonSystem_D.png',
+    },
+    {
+      file: 'sampledata/skeleton\\53_SkeletonSystem_N.png',
+      name: '53_SkeletonSystem_N',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'D:\\VidaSystems\\Google_Expeditions_AR\\8-SkeletalSystem\\58_Movement\\textures\\53_SkeletonSystem_N.png',
+    },
+  ],
+  version: '0.54:2',
+}

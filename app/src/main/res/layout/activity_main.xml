@@ -13,7 +13,7 @@
         class="com.google.ar.sceneform.ux.ArFragment"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/startBtn"
+        android:id="@+id/playBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
